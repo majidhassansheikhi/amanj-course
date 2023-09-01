@@ -1,0 +1,113 @@
+body {
+    background-color:  #FF8A65;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF8E1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #FFF8E1;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #FF5722;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #FF8A65;
+  }
+  check-button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-button:hover {
+    background-color: #FF8A65;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    background-color: #FFCCBC;
+  }
+  
+  .checked .check-button {
+    background-color: #4CAF50;
+  }
+  
+  .checked .check-button:hover {
+    background-color: #81C784;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #FFF3E0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:hover {
+    background-color: #FFE0B2;
+  }
+  
+  .delete-button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #FF8A65;
+  }
+  
+  .check-button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-button:hover {
+    background-color: #FF8A65;
+  }
