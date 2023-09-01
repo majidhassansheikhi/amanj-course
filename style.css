@@ -13,12 +13,12 @@ body {
   }
   
   h1 {
-    color: #FFF8E1;
+    color: #200d01;
     text-align: center;
   }
   
   input[type="text"] {
-    width: 90%;
+    width: 94%;
     padding: 10px;
     border: 1px solid #FF5722;
     border-radius: 5px;
